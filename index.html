@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="darkmode_div">
+    <a href="#" class="darkmode">
+        <img src="./images/light_icon.png" class="ligth_icon" width="25" alt="light_icon">
+        <img src="./images/night.png" class="dark_icon light_icon_hidden" width="25" alt="dark_icon">
+    </a>
+</div>
+    <h1 class="title">Unsplash Images</h1>
+    <form id="searchForm" class="search-form">
+        <input type="text" id="searchInput" class="form-input search-input" name="search" placeholder="dog">
+        <button type="submit" id="searchBtn" class="btn search-btn">search</button>
+    </form>
+    <span id="message-create" class="error_text"></span>
+    <div id="loader" class="loader hidden">
+        <img src="./images/loader.gif" width="200" alt="">
+      </div>
+      <h1 class="section-title">dog</h1>
+      <a href="./index.html" class="back_home hidden">Back home</a>
+    <section class="image-container">
+    </section>
+    <button id="more" class="btn more_btn hidden">more</button>
+<script src="./app.js"></script>
+</body>
+</html>
